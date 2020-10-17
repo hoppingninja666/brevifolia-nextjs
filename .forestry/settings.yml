@@ -5,7 +5,7 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
-  path: data
+  path: data/config.json
   label: siteconfig
   match: "**/*"
 - type: directory
