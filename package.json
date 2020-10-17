@@ -10,7 +10,7 @@
     "develop": "yarn dev",
     "build": "next build",
     "start": "next start",
-    "static": "next export"
+    "static": "next build && next export"
   },
   "dependencies": {
     "gray-matter": "^4.0.2",
