@@ -4,10 +4,17 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: directory
+  path: data
+  label: options
+  create: all
+  match: "**/*"
+  new_doc_ext: ".json"
+  templates:
+  - siteconfig
 - type: document
   path: data/config.json
   label: siteconfig
-  match: "**/*"
 - type: directory
   path: posts
   label: posts
