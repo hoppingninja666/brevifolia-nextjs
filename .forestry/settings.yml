@@ -9,7 +9,7 @@ sections:
   label: options
   create: all
   match: "**/*"
-  new_doc_ext: ".json"
+  new_doc_ext: json
   templates:
   - siteconfig
 - type: document
