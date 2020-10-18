@@ -1,5 +1,5 @@
 ---
-title: The hidden paradise 111w
+title: The hidden paradise 111wx
 author: Father John Misty
 date: 2019-07-08T16:05:29Z
 hero_image: "../static/john-o-nolan-mauritius.jpg"
